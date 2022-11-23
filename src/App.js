@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar';
 
 const App = ()=>{
-  // const apikey = "dbe57b028aeb41e285a226a94865f7a7";
-  const apikey = process.env.REACT_APP_NEWS_API_KEY;
+  const apikey = "dbe57b028aeb41e285a226a94865f7a7";
+  // const apikey = process.env.REACT_APP_NEWS_API_KEY;
   const country = "in";
   const pageSize = 9;
 
